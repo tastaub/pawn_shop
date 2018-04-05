@@ -1,0 +1,45 @@
+body  {
+    background-image: url("https://i.ytimg.com/vi/42PEwGG154Q/maxresdefault.jpg");
+    background-size: cover;
+}
+
+.crystalBox {
+    border: #eeeeee solid 1px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.crystalBox:hover  {
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.9);
+
+}
+
+.crystal  {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2  {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gold;
+    font-size: 30px;
+    text-shadow: 2px 2px blue;
+}
+
+p  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-shadow: 2px 2px gold;
+}
+
+#losses  {
+    color: red;
+}
+
+#wins  {
+    color: black;
+}
