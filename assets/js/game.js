@@ -39,13 +39,14 @@ var gameStart = function()  {
         //Create a class and a data attribute
             crystal.attr({
                 
-                "class": 'crystalBox',
+                "class": 'img-responsive col-xs-6 col-s-3',
+                "id": 'crystalBox',
                 //Attach random number to div
                 "data-random": crystalRandom,
         });
             crystal.css({
                 'background-image': 'url(' + images[i] + ')',
-                'background-size': '200px 200px'
+                'background-size': '150px 150px'
             });
         $(".crystal").append(crystal);
     }
@@ -57,7 +58,7 @@ $(document).ready(function(){
     
 gameStart();
 difference = 0;
-$(document).on('click', ".crystalBox", function()  {
+$(document).on('click', "#crystalBox", function()  {
      
     // Turn data attribute into number
     var num = parseInt($(this).attr("data-random"));

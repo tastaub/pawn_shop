@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Crystal Game</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Game</title>
+        
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">    
+    <link rel="stylesheet" href="assets/css/style.css">
     </head>
+    <div class="page-header">
+        <img src="assets/images/pawnLogo.png" class="img-responsive" id="img-logo">
+    </div>
 
     <body>
-        <h2 id="results"></h2>
-        <div class="crystal"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12" id="results"></div>
+                <div class="col-xs-6 col-sm-12 crystal"></div>
+            </div>
+        </div>
         <h2 id="totalResults"></h2>
         <h2 id="difference"></h2>
         <p id="wins"></p>
@@ -18,7 +30,9 @@
 
         
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/game.js"></script>
     </body>
 

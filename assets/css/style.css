@@ -1,36 +1,50 @@
 body  {
-    background-image: url("https://i.ytimg.com/vi/42PEwGG154Q/maxresdefault.jpg");
-    background-size: cover;
+    background-image: url("../images/pawnShop.jpg");
+    background-size: no-repeat;
 }
 
-.crystalBox {
-    border: blue dotted 5px;
-    height: 200px;
-    width: 200px;
+.page-header  {
+    background-color: aliceblue;
+}
+#img-logo  {
+    margin: 0 auto;
+    height: 50px;
+    width: auto;
+}
+
+.img-responsive  {
+    margin: 0 auto;
+}
+#crystalBox  {
+    border: goldenrod double 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 15px 45px;
+    height: 150px;
+    width: 150px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-.crystalBox:hover  {
-    height: 200px;
-    width: 200px;
+#crystalBox:hover  {
     box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.9);
     cursor: pointer;
 
-
 }
 
-.crystal  {
-    display: flex;
-    justify-content: space-between;
+#results  {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
 }
 
 h2  {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: gold;
+    color: goldenrod;
     font-size: 30px;
-    text-shadow: 2px 2px blue;
+    text-shadow: 2px 2px black;
 }
 
 p  {
